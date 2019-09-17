@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.menu {
+    display: inline-block;
+    background-color: #73c2fb;
+    width: 100%;
+}
+
+.menu .logo {
+    width: 80px;
+    height: 60px;
+}
+
+.menu .list {
+    width: auto;
+    float: right;
+}
+
+.menu .list {
+    display: flex;
+}
