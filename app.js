@@ -9,9 +9,8 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile)
 
-app.get('/', (req, res) => {
-	res.render("index.html");
-});
+app.use('/', require('./routes/index'));
+app.use('/board', require('./routes/board'));
 
 app.get('/html', (req, res) => {
 	res.send("<h1>저는 html 헤더입니다</h1>");
@@ -32,3 +31,6 @@ app.get('/practice', (req, res) => {
 let server = app.listen(port, () => {
 	console.log("Express server has started on port " + port);
 });
+/*
+
+*/
