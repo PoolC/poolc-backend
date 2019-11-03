@@ -1,0 +1,8 @@
+runtime: nodejs10
+
+env_variables:
+  HOST: "${HOST}"
+  DB: "${DB}"
+  PW: "${PW}"
+  USER: "${USER}"
+  NODE_ENV: "${NODE_ENV}"

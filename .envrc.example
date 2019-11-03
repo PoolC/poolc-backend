@@ -1,0 +1,18 @@
+export HOST="example_instance"
+export DB="example_db"
+export PW="example_pw"
+export USER="example_user"
+
+export DEV_HOST="example_instance"
+export DEV_DB="example_db"
+export DEV_PW="example_pw"
+export DEV_USER="example_user"
+export DEV_DB_PORT=example_port
+
+export LOCAL_HOST="example_instance"
+export LOCAL_DB="example_db"
+export LOCAL_PW="example_pw"
+export LOCAL_USER="example_user"
+export LOCAL_DB_PORT=example_port
+
+export NODE_ENV="production"
