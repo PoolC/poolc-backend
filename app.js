@@ -8,6 +8,7 @@ models.sequelize.sync();
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.json());
+app.use(require('cors')());
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
